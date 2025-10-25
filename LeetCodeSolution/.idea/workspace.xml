@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Algorithms/Sorting/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Algorithms/BFS/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Algorithms/BinarySearch/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Algorithms/BitMaipulation/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Algorithms/DFS/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Algorithms/InOrder/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Algorithms/LevelOrder/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Algorithms/PostOrder/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Algorithms/PreOrder/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Algorithms/SortestPath/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Algorithms/Sorting/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Algorithms/TopoLogicalSort/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Data structure/Linear/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Data structure/NonLinear/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProblemSolvingTechnique/BackTracking/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProblemSolvingTechnique/DevideAndConquer/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProblemSolvingTechnique/DynamicPrograming/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProblemSolvingTechnique/FarstAndSlowPointers/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProblemSolvingTechnique/Greedy/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProblemSolvingTechnique/PrefixSum/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProblemSolvingTechnique/Recursions/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProblemSolvingTechnique/SlidingWindow/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProblemSolvingTechnique/Top-K-Element/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProblemSolvingTechnique/TwoPointers/read.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/FindAllArgs438.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Utility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution88.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.QuickSort.executor": "Run",
+    "Application.Solution438.executor": "Run",
+    "Application.Solution88.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "development",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Application.Solution88">
+}]]></component>
+  <component name="RunManager" selected="Application.Solution438">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCodeSolution" />
@@ -94,6 +71,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution438" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.SlidingWindow.Solution438" />
+      <module name="LeetCodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.SlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution88" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution88" />
       <module name="LeetCodeSolution" />
@@ -103,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution438" />
         <item itemvalue="Application.Solution88" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.QuickSort" />
@@ -118,5 +109,26 @@
       <updated>1761409303904</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/FindAllArgs438.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/FindAllArgs438.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/FindAllArgs438.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,5 +1,8 @@
 package com.krishu;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Utility {
     public static String toStringArray(int[] arr) {
         StringBuilder str = new StringBuilder();
@@ -18,4 +21,13 @@ public class Utility {
     public static void printArray(String msg, int[] arr) {
         System.out.println(msg + Utility.toStringArray(arr));
     }
+
+    public static void printArray(String msg, List<Integer> arr) {
+        int[] array = arr.stream()
+                .mapToInt(Integer::intValue)
+                .toArray();
+        System.out.println(msg + Utility.toStringArray(array));
+    }
+
+
 }
