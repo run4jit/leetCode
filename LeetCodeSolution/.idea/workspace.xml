@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/Permutation567.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/SubDistrict2461.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/FindAllArgs438.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/FindAllArgs438.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/read.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/TwoPointers/TwoSumSorted.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +37,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.QuickSort.executor": "Run",
+    "Application.Solution.executor": "Run",
     "Application.Solution2461.executor": "Run",
     "Application.Solution438.executor": "Run",
     "Application.Solution567.executor": "Debug",
@@ -55,10 +51,16 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution2461">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.TwoPointers.Solution" />
       <module name="LeetCodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.TwoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution2461" />
         <item itemvalue="Application.Solution567" />
         <item itemvalue="Application.Solution438" />
         <item itemvalue="Application.Solution88" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
