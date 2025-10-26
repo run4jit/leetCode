@@ -46,7 +46,7 @@ public class FindAllArgs438 {
 
         Map<Character, Integer> windowS = new HashMap<>();
         Map<Character, Integer> windowP = new HashMap<>();
-        //create window 
+        //create window
         for (int i = 0; i < p.length(); i++) {
             windowS.put(s.charAt(i), windowS.getOrDefault(s.charAt(i), 0)+1);
             windowP.put(p.charAt(i), windowP.getOrDefault(p.charAt(i), 0)+1);

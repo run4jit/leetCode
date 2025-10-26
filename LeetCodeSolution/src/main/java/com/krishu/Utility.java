@@ -29,5 +29,8 @@ public class Utility {
         System.out.println(msg + Utility.toStringArray(array));
     }
 
+    public static void printResult(String msg, Object result) {
+        System.out.println(msg + result.toString());
+    }
 
 }
