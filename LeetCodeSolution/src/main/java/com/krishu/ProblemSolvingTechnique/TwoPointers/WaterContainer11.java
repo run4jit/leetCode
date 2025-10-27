@@ -1,4 +1,8 @@
 package com.krishu.ProblemSolvingTechnique.TwoPointers;
+
+import com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.LongestSubString3;
+import com.krishu.Utility;
+
 /*
 11. Container With Most Water
 https://leetcode.com/problems/container-with-most-water/description/
@@ -66,6 +70,19 @@ public class WaterContainer11 {
 
 class Solution11 {
     public static void main(String[] args) {
+        test1();
+        test2();
+    }
 
+    static void test1() {
+        int[] heights = {1,8,6,2,5,4,8,3,7};
+        int result = WaterContainer11.maxArea(heights);
+        Utility.printResult("Result: ", result);
+    }
+
+    static void test2() {
+        int[] heights = {1,1};
+        int result = WaterContainer11.maxArea(heights);
+        Utility.printResult("Result: ", result);
     }
 }
