@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/TwoPointers/TwoSumSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/TwoPointers/TwoSumSorted.java" afterDir="false" />
-    </list>
+    <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,12 +36,14 @@
     "Application.Main.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.Solution167.executor": "Run",
     "Application.Solution2461.executor": "Run",
     "Application.Solution438.executor": "Run",
     "Application.Solution567.executor": "Debug",
     "Application.Solution88.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "development",
@@ -164,21 +164,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/SubDistrict2461.java</url>
           <line>106</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/TwoPointers/TwoSumSorted.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/TwoPointers/TwoSumSorted.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/TwoPointers/TwoSumSorted.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
