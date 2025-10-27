@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="" />
+    <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/DynamicSlidingWindow/LongestSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/TwoPointers/WaterContainer11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/TwoPointers/WaterContainer11.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,8 +40,10 @@
     "Application.Main.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.Solution11.executor": "Run",
     "Application.Solution167.executor": "Run",
     "Application.Solution2461.executor": "Run",
+    "Application.Solution3.executor": "Run",
     "Application.Solution438.executor": "Run",
     "Application.Solution567.executor": "Debug",
     "Application.Solution88.executor": "Run",
@@ -51,9 +57,22 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution167">
+  <component name="RunManager" selected="Application.Solution3">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.TwoPointers.Solution" />
+      <module name="LeetCodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.TwoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.TwoPointers.Solution11" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
@@ -91,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution438" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.SlidingWindow.Solution438" />
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.Solution3" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.SlidingWindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution567" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.SlidingWindow.Solution567" />
-      <module name="LeetCodeSolution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.SlidingWindow.*" />
+          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution3" />
+        <item itemvalue="Application.Solution11" />
         <item itemvalue="Application.Solution167" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution2461" />
-        <item itemvalue="Application.Solution567" />
-        <item itemvalue="Application.Solution438" />
       </list>
     </recent_temporary>
   </component>
