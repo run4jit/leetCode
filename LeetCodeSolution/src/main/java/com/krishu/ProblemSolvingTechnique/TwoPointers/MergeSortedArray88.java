@@ -90,7 +90,6 @@ public class MergeSortedArray88 {
 
 }
 
-
 class Solution88 {
     public static void main(String[] args) {
         int[] num1 = {1,2,3,0,0,0};
