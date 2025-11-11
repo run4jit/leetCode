@@ -39,7 +39,7 @@ n == height.length
 public class WaterContainer11 {
     public static int maxArea(int[] height) {
         //Termination scenario
-        if (height.length < 1) {
+        if (height.length < 2) {
             return 0;
         }
 

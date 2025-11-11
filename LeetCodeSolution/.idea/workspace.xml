@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/DynamicSlidingWindow/LongestRepeatingCharacter424.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/TwoPointers/ThreeSum15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/TwoPointers/ThreeSum15.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +37,12 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.QuickSort.executor": "Run",
+    "Application.RangeSumQuery303.executor": "Run",
+    "Application.Soluion395.executor": "Run",
     "Application.Solution.executor": "Run",
+    "Application.Solution1004.executor": "Run",
     "Application.Solution11.executor": "Run",
+    "Application.Solution15.executor": "Run",
     "Application.Solution167.executor": "Run",
     "Application.Solution209.executor": "Run",
     "Application.Solution2461.executor": "Run",
@@ -47,6 +50,7 @@
     "Application.Solution424.executor": "Run",
     "Application.Solution438.executor": "Run",
     "Application.Solution567.executor": "Debug",
+    "Application.Solution76.executor": "Run",
     "Application.Solution88.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -58,7 +62,33 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution424">
+  <component name="RunManager" selected="Application.Solution15">
+    <configuration name="Soluion395" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.Soluion395" />
+      <module name="LeetCodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.Solution1004" />
+      <module name="LeetCodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.TwoPointers.Solution11" />
       <module name="LeetCodeSolution" />
@@ -72,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution167" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.TwoPointers.Solution167" />
+    <configuration name="Solution15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.TwoPointers.Solution15" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
@@ -85,34 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.Solution209" />
-      <module name="LeetCodeSolution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.Solution3" />
-      <module name="LeetCodeSolution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution424" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.Solution424" />
+    <configuration name="Solution76" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.Solution76" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution424" />
-        <item itemvalue="Application.Solution209" />
-        <item itemvalue="Application.Solution3" />
+        <item itemvalue="Application.Solution15" />
         <item itemvalue="Application.Solution11" />
-        <item itemvalue="Application.Solution167" />
+        <item itemvalue="Application.Soluion395" />
+        <item itemvalue="Application.Solution76" />
+        <item itemvalue="Application.Solution1004" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +186,20 @@
           <line>14</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/DynamicSlidingWindow/MinimumWindowSubstring76.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/DynamicSlidingWindow/LongestSubstringAtLeastKRepeatingChar395.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="27" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
