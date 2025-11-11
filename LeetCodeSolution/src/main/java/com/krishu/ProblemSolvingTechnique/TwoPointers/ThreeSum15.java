@@ -1,6 +1,8 @@
 package com.krishu.ProblemSolvingTechnique.TwoPointers;
 
 
+import com.krishu.Utility;
+
 import java.util.*;
 
 /*
@@ -88,9 +90,31 @@ public class ThreeSum15 {
 class Solution15 {
     public static void main(String[] args) {
         test1();
+        test2();
+        test3();
     }
 
     static void test1() {
+        int[] nums = {-1,0,1,2,-1,-4};
+        List<List<Integer>> expected = Arrays.asList(Arrays.asList(-1,-1,2), Arrays.asList(-1,0,1));
+        List<List<Integer>> result = ThreeSum15.threeSum(nums);
 
+        Utility.printException(expected, result);
+    }
+
+    static void test2() {
+        int[] nums = {0,1,1};
+        List<List<Integer>> expected = new ArrayList<>();
+        List<List<Integer>> result = ThreeSum15.threeSum(nums);
+
+        Utility.printException(expected, result);
+    }
+
+    static void test3() {
+        int[] nums = {0,0,0};
+        List<List<Integer>> expected = List.of(Arrays.asList(0, 0, 0));
+        List<List<Integer>> result = ThreeSum15.threeSum(nums);
+
+        Utility.printException(expected, result);
     }
 }
