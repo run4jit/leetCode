@@ -36,6 +36,12 @@ public class Utility {
     }
 
     public static void printException(Object expected, Object actual) {
+
+        if(expected.equals(actual)) {
+            printResult("Result: ", actual);
+            return;
+        }
+
         System.out.println(TextColor.RED
                 + "Output of algorithm did not match with "
                 + "expected: " + expected.toString()

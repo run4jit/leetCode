@@ -80,11 +80,7 @@ class Solution1004 {
         int k = 2;
         int expected = 6;
         int result = MaxConsecutiveOnes1004.longestOnes(nums, k);
-        if (expected == result) {
-            Utility.printResult("Result: ", result);
-        } else {
-            Utility.printException(expected, result);
-        }
+        Utility.printException(expected, result);
     }
 
     static void test2() {
@@ -92,10 +88,6 @@ class Solution1004 {
         int k = 3;
         int expected = 10;
         int result = MaxConsecutiveOnes1004.longestOnes(nums, k);
-        if (expected == result) {
-            Utility.printResult("Result: ", result);
-        } else {
-            Utility.printException(expected, result);
-        }
+        Utility.printException(expected, result);
     }
 }

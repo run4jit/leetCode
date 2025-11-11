@@ -122,11 +122,7 @@ class Solution76 {
 
         String actual = MinimumWindowSubstring76.minWindow(s, t);
 
-        if (expected.equals(actual)) {
-            Utility.printResult("Result: " , actual);
-        } else {
-            Utility.printException(expected, actual);
-        }
+        Utility.printException(expected, actual);
     }
 
     static void test2() {
@@ -136,11 +132,7 @@ class Solution76 {
 
         String actual = MinimumWindowSubstring76.minWindow(s, t);
 
-        if (expected.equals(actual)) {
-            Utility.printResult("Result: " , actual);
-        } else {
-            Utility.printException(expected, actual);
-        }
+        Utility.printException(expected, actual);
     }
 
     static void test3() {
@@ -150,10 +142,6 @@ class Solution76 {
 
         String actual = MinimumWindowSubstring76.minWindow(s, t);
 
-        if (expected.equals(actual)) {
-            Utility.printResult("Result: " , actual);
-        } else {
-            Utility.printException(expected, actual);
-        }
+        Utility.printException(expected, actual);
     }
 }
