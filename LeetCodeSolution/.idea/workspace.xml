@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/TwoPointers/TrappingRainWater42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/MaximumAverageSubarray_I_643.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +48,11 @@
     "Application.Solution209.executor": "Run",
     "Application.Solution2461.executor": "Run",
     "Application.Solution3.executor": "Run",
+    "Application.Solution42.executor": "Run",
     "Application.Solution424.executor": "Run",
     "Application.Solution438.executor": "Run",
     "Application.Solution567.executor": "Debug",
+    "Application.Solution643.executor": "Run",
     "Application.Solution76.executor": "Run",
     "Application.Solution88.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -63,7 +65,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution42">
+  <component name="RunManager" selected="Application.Solution643">
     <configuration name="Soluion395" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.Soluion395" />
       <module name="LeetCodeSolution" />
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution76" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.Solution76" />
+    <configuration name="Solution643" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.SlidingWindow.Solution643" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.DynamicSlidingWindow.*" />
+          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution643" />
         <item itemvalue="Application.Solution42" />
         <item itemvalue="Application.Solution15" />
         <item itemvalue="Application.Solution11" />
         <item itemvalue="Application.Soluion395" />
-        <item itemvalue="Application.Solution76" />
       </list>
     </recent_temporary>
   </component>
@@ -166,16 +168,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/FindAllArgs438.java</url>
           <line>72</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/SubDistrict2461.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/SlidingWindow/SubDistrict2461.java</url>
-          <line>106</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/DynamicSlidingWindow/MinSubArraySum209.java</url>
