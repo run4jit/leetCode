@@ -55,7 +55,7 @@ public class MinimumWindowSubstring76 {
 
         int left = 0; // left pointer of window
         int right = 0; // right pointer of window
-        int minWindowSize = Integer.MAX_VALUE; // minimum window satishfied
+        int minWindowSize = Integer.MAX_VALUE; // minimum window satisfied
         int count = 0; // count of the found char
         int startIndex = -1; // starting with negative, so we can check no result found
         Map<Character, Integer> charFeq = new HashMap<>();
@@ -110,9 +110,10 @@ public class MinimumWindowSubstring76 {
 
 class Solution76 {
     public static void main(String[] args) {
-        test1();
-        test2();
-        test3();
+//        test1();
+//        test2();
+//        test3();
+        test4();
     }
 
     static void test1() {
@@ -139,6 +140,16 @@ class Solution76 {
         String s = "a";
         String t = "aa";
         String expected = "";
+
+        String actual = MinimumWindowSubstring76.minWindow(s, t);
+
+        Utility.printException(expected, actual);
+    }
+
+    static void test4() {
+        String s = "cabwefgewcwaefgcf";
+        String t = "cae";
+        String expected = "cwae";
 
         String actual = MinimumWindowSubstring76.minWindow(s, t);
 
