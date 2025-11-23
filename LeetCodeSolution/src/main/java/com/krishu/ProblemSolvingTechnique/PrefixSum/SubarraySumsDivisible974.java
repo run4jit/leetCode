@@ -33,7 +33,7 @@ Constraints:
 2 <= k <= 104
  */
 public class SubarraySumsDivisible974 {
-    public static int broot_force_subarraysDivByK(int[] nums, int k) {
+    public static int brute_force_subarraysDivByK(int[] nums, int k) {
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
             int sum = 0;
@@ -120,7 +120,7 @@ class Solution974{
         int k = 5;
 
         int expected = 7;
-        int actual = SubarraySumsDivisible974.broot_force_subarraysDivByK(arr,k);
+        int actual = SubarraySumsDivisible974.brute_force_subarraysDivByK(arr,k);
 //        int actual = SubarraySumsDivisible974.subarraysDivByK(arr,k);
 
         Utility.printException(expected, actual);
@@ -130,7 +130,7 @@ class Solution974{
         int k = 5;
 
         int expected = 7;
-//        int actual = SubarraySumsDivisible974.broot_force_subarraysDivByK(arr,k);
+//        int actual = SubarraySumsDivisible974.brute_force_subarraysDivByK(arr,k);
         int actual = SubarraySumsDivisible974.subarraysDivByK(arr,k);
 
         Utility.printException(expected, actual);
@@ -140,7 +140,7 @@ class Solution974{
         int k = 9;
 
         int expected = 0;
-//        int actual = SubarraySumsDivisible974.broot_force_subarraysDivByK(arr,k);
+//        int actual = SubarraySumsDivisible974.brute_force_subarraysDivByK(arr,k);
         int actual = SubarraySumsDivisible974.subarraysDivByK(arr,k);
 
         Utility.printException(expected, actual);

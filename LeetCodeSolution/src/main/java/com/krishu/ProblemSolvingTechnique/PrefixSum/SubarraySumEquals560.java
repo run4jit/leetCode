@@ -31,7 +31,7 @@ Constraints:
 -107 <= k <= 107
  */
 public class SubarraySumEquals560 {
-    public static int broot_force_subarraySum(int[] nums, int k) {
+    public static int brute_force_subarraySum(int[] nums, int k) {
 
         int count = 0;
         for (int i = 0 ; i < nums.length; i++) {
@@ -82,7 +82,7 @@ class Solution560 {
         int k = 3;
 
         int expected = 2;
-        int actual = SubarraySumEquals560.broot_force_subarraySum(arr, k);
+        int actual = SubarraySumEquals560.brute_force_subarraySum(arr, k);
 
         Utility.printException(expected, actual);
     }

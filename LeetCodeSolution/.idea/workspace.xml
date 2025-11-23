@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/PrefixSum/SubarraySumsDivisible974.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/ProblemSolvingTechnique/PrefixSum/ContinuousSubarraySum523.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +53,7 @@
     "Application.Solution42.executor": "Run",
     "Application.Solution424.executor": "Run",
     "Application.Solution438.executor": "Run",
+    "Application.Solution523.executor": "Run",
     "Application.Solution560.executor": "Run",
     "Application.Solution567.executor": "Debug",
     "Application.Solution643.executor": "Run",
@@ -70,7 +71,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution974">
+  <component name="RunManager" selected="Application.Solution523">
     <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.PrefixSum.Solution1" />
       <module name="LeetCodeSolution" />
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Array.Solution283" />
+    <configuration name="Solution523" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.ProblemSolvingTechnique.PrefixSum.Solution523" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.DataStructure.Linear.Array.*" />
+          <option name="PATTERN" value="com.krishu.ProblemSolvingTechnique.PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution523" />
         <item itemvalue="Application.Solution974" />
         <item itemvalue="Application.Solution560" />
         <item itemvalue="Application.Solution1" />
         <item itemvalue="Application.Solution9" />
-        <item itemvalue="Application.Solution283" />
       </list>
     </recent_temporary>
   </component>
