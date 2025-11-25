@@ -37,7 +37,7 @@ nums[i] is either 0 or 1.
 public class ContiguousArray525 {
     public static int brute_force_findMaxLength(int[] nums) {
 
-        int max = -1;
+        int max = 0;
         for (int i = 0; i < nums.length -1; i++) {
             int zeroCount = 0;
             int oneCount = 0;
