@@ -35,6 +35,12 @@ public class Utility {
         System.out.println(TextColor.GREEN + msg + result.toString() + TextColor.RESET);
     }
 
+    public static void printException(int[] expected, int[] actual) {
+        String exp = Utility.toStringArray(expected);
+        String act = Utility.toStringArray(actual);
+        printException(exp, act);
+    }
+
     public static void printException(Object expected, Object actual) {
 
         if(expected.equals(actual)) {
