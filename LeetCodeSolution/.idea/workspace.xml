@@ -51,6 +51,7 @@
     "Application.Solution169.executor": "Run",
     "Application.Solution189.executor": "Run",
     "Application.Solution209.executor": "Run",
+    "Application.Solution2348.executor": "Run",
     "Application.Solution238.executor": "Run",
     "Application.Solution2461.executor": "Run",
     "Application.Solution26.executor": "Run",
@@ -78,7 +79,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution122">
+  <component name="RunManager" selected="Application.Solution2348">
     <configuration name="Solution121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Array.Solution121" />
       <module name="LeetCodeSolution" />
@@ -118,6 +119,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution2348" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Array.Solution2348" />
+      <module name="LeetCodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krishu.DataStructure.Linear.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution238" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Array.Solution238" />
       <module name="LeetCodeSolution" />
@@ -131,26 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Array.Solution26" />
-      <module name="LeetCodeSolution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krishu.DataStructure.Linear.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution2348" />
         <item itemvalue="Application.Solution122" />
         <item itemvalue="Application.Solution238" />
         <item itemvalue="Application.Solution189" />
         <item itemvalue="Application.Solution121" />
-        <item itemvalue="Application.Solution26" />
       </list>
     </recent_temporary>
   </component>
