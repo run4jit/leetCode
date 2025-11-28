@@ -36,28 +36,40 @@ import com.krishu.Utility;
 
 public class IncreasingTripletSubsequence334 {
     public static boolean increasingTriplet(int[] nums) {
+        // first smallest element
         int first = Integer.MAX_VALUE;
+        // second smallest element
         int second = Integer.MAX_VALUE;
 
+        // loop each element of nums array.
         for (int i =0; i < nums.length; i++) {
+
+            // check nums[i] is smaller than first element
             if (nums[i] <= first) {
+                // update first smallest element
                 first = nums[i];
-            } else if (nums[i] <= second) {
+            }
+            // update second smallest element
+            else if (nums[i] <= second) {
+                // updae second smallest element
                 second = nums[i];
             } else {
+                // this will be the third element which is in sequence
+                // so return true
                 return true;
             }
         }
+        // if we reach here mean none of element is in increasing order.
         return false;
     }
 }
 
 class Solution334 {
     public static void main(String[] args) {
-//        test1();
-//        test2();
-//        test3();
-//        test4();
+        test1();
+        test2();
+        test3();
+        test4();
         test5();
     }
 
