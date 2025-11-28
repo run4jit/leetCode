@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/Array/NumberZeroFilledSubarrays2348.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/Array/IncreasingTripletSubsequence334.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "Application.Solution26.executor": "Run",
     "Application.Solution283.executor": "Debug",
     "Application.Solution3.executor": "Run",
+    "Application.Solution334.executor": "Debug",
     "Application.Solution42.executor": "Run",
     "Application.Solution424.executor": "Run",
     "Application.Solution438.executor": "Run",
@@ -79,20 +80,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution2348">
-    <configuration name="Solution121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Array.Solution121" />
-      <module name="LeetCodeSolution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krishu.DataStructure.Linear.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution334">
     <configuration name="Solution122" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Array.Solution122" />
       <module name="LeetCodeSolution" />
@@ -145,13 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution334" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Array.Solution334" />
+      <module name="LeetCodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krishu.DataStructure.Linear.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution334" />
         <item itemvalue="Application.Solution2348" />
         <item itemvalue="Application.Solution122" />
         <item itemvalue="Application.Solution238" />
         <item itemvalue="Application.Solution189" />
-        <item itemvalue="Application.Solution121" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +208,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/Array/ProductArrayExceptSelf238.java</url>
           <line>66</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/Array/IncreasingTripletSubsequence334.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
