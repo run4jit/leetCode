@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/String/LongestCommonPrefix14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/String/ValidPalindrome125.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/String/ReverseWordsInString151.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/read.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,7 @@
     "Application.Solution125.executor": "Run",
     "Application.Solution14.executor": "Run",
     "Application.Solution15.executor": "Run",
+    "Application.Solution151.executor": "Run",
     "Application.Solution167.executor": "Run",
     "Application.Solution169.executor": "Run",
     "Application.Solution189.executor": "Run",
@@ -83,10 +82,10 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "development",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution14">
+  <component name="RunManager" selected="Application.Solution151">
     <configuration name="Solution125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.String.Solution125" />
       <module name="LeetCodeSolution" />
@@ -113,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2348" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Array.Solution2348" />
+    <configuration name="Solution151" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.String.Solution151" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.DataStructure.Linear.Stack.*" />
+          <option name="PATTERN" value="com.krishu.DataStructure.Linear.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution151" />
         <item itemvalue="Application.Solution14" />
         <item itemvalue="Application.Solution125" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.Solution334" />
-        <item itemvalue="Application.Solution2348" />
       </list>
     </recent_temporary>
   </component>
