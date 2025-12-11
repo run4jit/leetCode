@@ -9,8 +9,9 @@ public class Utility {
         StringBuilder str = new StringBuilder();
         str.append("[");
         for (int val:  arr) {
-            str.append(" " + val);
+            str.append(", " + val);
         }
+        str.deleteCharAt(1);
         str.append(" ]");
         return str.toString();
     }
