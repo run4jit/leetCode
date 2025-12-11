@@ -1,7 +1,5 @@
 package com.krishu.Algorithms.Sorting;
 
-import com.krishu.Utility;
-
 import static com.krishu.Utility.printArray;
 
 public class QuickSort {

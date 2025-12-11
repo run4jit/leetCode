@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/String/ReverseWordsInString151.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Algorithms/BitMaipulation/NumberOfSetBits191.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Algorithms/BitMaipulation/SingleNumber136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Algorithms/Sorting/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/Algorithms/BitMaipulation/read.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/Algorithms/Sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Algorithms/Sorting/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BubbleTest.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RangeSumQuery303.executor": "Run",
@@ -48,12 +53,14 @@
     "Application.Solution121.executor": "Run",
     "Application.Solution122.executor": "Run",
     "Application.Solution125.executor": "Run",
+    "Application.Solution136.executor": "Run",
     "Application.Solution14.executor": "Run",
     "Application.Solution15.executor": "Run",
     "Application.Solution151.executor": "Run",
     "Application.Solution167.executor": "Run",
     "Application.Solution169.executor": "Run",
     "Application.Solution189.executor": "Run",
+    "Application.Solution191.executor": "Run",
     "Application.Solution209.executor": "Run",
     "Application.Solution2348.executor": "Run",
     "Application.Solution238.executor": "Run",
@@ -85,13 +92,26 @@
     "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution151">
-    <configuration name="Solution125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.String.Solution125" />
+  <component name="RunManager" selected="Application.Solution191">
+    <configuration name="BubbleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.Algorithms.Sorting.BubbleTest" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.DataStructure.Linear.String.*" />
+          <option name="PATTERN" value="com.krishu.Algorithms.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.Algorithms.BitMaipulation.Solution136" />
+      <module name="LeetCodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.krishu.Algorithms.BitMaipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,25 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution334" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Array.Solution334" />
+    <configuration name="Solution191" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.Algorithms.BitMaipulation.Solution191" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.DataStructure.Linear.Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Stack.StackTest" />
-      <module name="LeetCodeSolution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krishu.DataStructure.Linear.Stack.*" />
+          <option name="PATTERN" value="com.krishu.Algorithms.BitMaipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution191" />
+        <item itemvalue="Application.Solution136" />
+        <item itemvalue="Application.BubbleTest" />
         <item itemvalue="Application.Solution151" />
         <item itemvalue="Application.Solution14" />
-        <item itemvalue="Application.Solution125" />
-        <item itemvalue="Application.StackTest" />
-        <item itemvalue="Application.Solution334" />
       </list>
     </recent_temporary>
   </component>
