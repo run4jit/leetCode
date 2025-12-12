@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Algorithms/BitMaipulation/CountingBits338.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Algorithms/BitMaipulation/ReverseBits190.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Utility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,7 @@
     "Application.Solution167.executor": "Run",
     "Application.Solution169.executor": "Run",
     "Application.Solution189.executor": "Run",
+    "Application.Solution190.executor": "Debug",
     "Application.Solution191.executor": "Run",
     "Application.Solution209.executor": "Run",
     "Application.Solution2348.executor": "Run",
@@ -90,7 +90,7 @@
     "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Solution338">
+  <component name="RunManager" selected="Application.Solution190">
     <configuration name="BubbleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.krishu.Algorithms.Sorting.BubbleTest" />
       <module name="LeetCodeSolution" />
@@ -117,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution151" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.String.Solution151" />
+    <configuration name="Solution190" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.Algorithms.BitMaipulation.Solution190" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.DataStructure.Linear.String.*" />
+          <option name="PATTERN" value="com.krishu.Algorithms.BitMaipulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution190" />
         <item itemvalue="Application.Solution338" />
         <item itemvalue="Application.Solution191" />
         <item itemvalue="Application.Solution136" />
         <item itemvalue="Application.BubbleTest" />
-        <item itemvalue="Application.Solution151" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +233,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/String/LongestCommonPrefix14.java</url>
           <line>17</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/krishu/Algorithms/BitMaipulation/ReverseBits190.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
