@@ -90,9 +90,8 @@ class Solution190 {
     }
 
     static void test3() {
-        int num = 11;
-
-        int expected = -805306368;
+        int num = 1;
+        int expected = Integer.MIN_VALUE;
         int output = ReverseBits190.reverseBits(num);
 
         Utility.printException(expected, output);
