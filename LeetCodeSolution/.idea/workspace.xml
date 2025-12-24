@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Algorithms/BitMaipulation/SumofTwoIntegers371.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/HashMap/MyHashMap706.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/LinkList/MyLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/LinkList/MyLinkListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/LinkList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,69 +40,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BubbleTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RangeSumQuery303.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Soluion395.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution1004.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution11.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution121.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution122.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution125.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution136.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution14.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution15.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution151.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution167.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution169.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution189.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution190.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution191.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution201.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution209.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution2348.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution238.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution2461.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution26.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution283.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Solution3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution334.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution338.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution42.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution424.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution438.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution523.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution525.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution560.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution567.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Solution643.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution76.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution88.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution974.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackTest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BubbleTest.executor": "Run",
+    "Application.LinkListTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MyLinkListTest.executor": "Run",
+    "Application.QuickSort.executor": "Run",
+    "Application.RangeSumQuery303.executor": "Run",
+    "Application.Soluion395.executor": "Run",
+    "Application.Solution.executor": "Run",
+    "Application.Solution1.executor": "Run",
+    "Application.Solution1004.executor": "Run",
+    "Application.Solution11.executor": "Run",
+    "Application.Solution121.executor": "Run",
+    "Application.Solution122.executor": "Run",
+    "Application.Solution125.executor": "Run",
+    "Application.Solution136.executor": "Run",
+    "Application.Solution14.executor": "Run",
+    "Application.Solution15.executor": "Run",
+    "Application.Solution151.executor": "Run",
+    "Application.Solution167.executor": "Run",
+    "Application.Solution169.executor": "Run",
+    "Application.Solution189.executor": "Run",
+    "Application.Solution190.executor": "Run",
+    "Application.Solution191.executor": "Run",
+    "Application.Solution201.executor": "Run",
+    "Application.Solution209.executor": "Run",
+    "Application.Solution2348.executor": "Run",
+    "Application.Solution238.executor": "Run",
+    "Application.Solution2461.executor": "Run",
+    "Application.Solution26.executor": "Run",
+    "Application.Solution283.executor": "Debug",
+    "Application.Solution3.executor": "Run",
+    "Application.Solution334.executor": "Run",
+    "Application.Solution338.executor": "Run",
+    "Application.Solution42.executor": "Run",
+    "Application.Solution424.executor": "Run",
+    "Application.Solution438.executor": "Run",
+    "Application.Solution523.executor": "Run",
+    "Application.Solution525.executor": "Run",
+    "Application.Solution560.executor": "Run",
+    "Application.Solution567.executor": "Debug",
+    "Application.Solution643.executor": "Run",
+    "Application.Solution76.executor": "Run",
+    "Application.Solution88.executor": "Run",
+    "Application.Solution9.executor": "Run",
+    "Application.Solution974.executor": "Run",
+    "Application.StackTest.executor": "Run",
+    "Application.com.krishu.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "development",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.Algorithms.BitMaipulation.Solution" />
+}]]></component>
+  <component name="RunManager" selected="Application.MyLinkListTest">
+    <configuration name="LinkListTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.LinkList.LinkListTests" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.Algorithms.BitMaipulation.*" />
+          <option name="PATTERN" value="com.krishu.DataStructure.Linear.LinkList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution190" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.Algorithms.BitMaipulation.Solution190" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="LeetCodeSolution" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.LinkList.MyLinkListTest" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.Algorithms.BitMaipulation.*" />
+          <option name="PATTERN" value="com.krishu.DataStructure.Linear.LinkList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution191" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.Algorithms.BitMaipulation.Solution191" />
+    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Stack.StackTest" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.Algorithms.BitMaipulation.*" />
+          <option name="PATTERN" value="com.krishu.DataStructure.Linear.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,25 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution201" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.Algorithms.BitMaipulation.Solution201" />
+    <configuration name="com.krishu.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.Main" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.Algorithms.BitMaipulation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution338" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.Algorithms.BitMaipulation.Solution338" />
-      <module name="LeetCodeSolution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krishu.Algorithms.BitMaipulation.*" />
+          <option name="PATTERN" value="com.krishu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Solution201" />
-        <item itemvalue="Application.Solution190" />
-        <item itemvalue="Application.Solution338" />
-        <item itemvalue="Application.Solution191" />
+        <item itemvalue="Application.MyLinkListTest" />
+        <item itemvalue="Application.com.krishu.Main" />
+        <item itemvalue="Application.LinkListTests" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StackTest" />
       </list>
     </recent_temporary>
   </component>

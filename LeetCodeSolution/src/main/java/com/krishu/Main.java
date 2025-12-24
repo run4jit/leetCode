@@ -1,4 +1,4 @@
-//package com.krishu;
+package com.krishu;
 
 public class Main {
     public static void main(String[] args) {
