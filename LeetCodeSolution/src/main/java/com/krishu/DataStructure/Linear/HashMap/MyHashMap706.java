@@ -6,45 +6,51 @@ import java.util.List;
 
 
 public class MyHashMap706 {
-    final int MAX_ARRAY_SIZE = 100;
-    class MapValue {
+    final int MAX_ARRAY_SIZE = 10000;
+    class Node {
         private int key;
         private int value;
-        MapValue(int key, int value) {
+        Node(int key, int value) {
             this.key = key;
             this.value = value;
         }
-        int getValue() {
+        public int getValue() {
             return this.value;
         }
-        int getKey() {
+        public void setValue(int val) {
+            this.value = val;
+        }
+        public int getKey() {
             return this.key;
         }
     }
-    private LinkedList<MapValue>[] map;
+    private Node[] map;
     public MyHashMap706() {
-        map = new LinkedList[MAX_ARRAY_SIZE];
-        for (int i = 0; i < MAX_ARRAY_SIZE; i++) {
-            map[i] = new LinkedList<MapValue>();
-        }
+        map = new Node[MAX_ARRAY_SIZE];
+//        for (int i = 0; i < MAX_ARRAY_SIZE; i++) {
+//            map[i] = new LinkedList<MapValue>();
+//        }
     }
-    private int hashValue(int val) {
-        return val % MAX_ARRAY_SIZE;
+    private Integer getIndex(int key) {
+        return Integer.hashCode(key) % MAX_ARRAY_SIZE;
     }
     public void put(int key, int value) {
-        int index = hashValue(key);
-        Iterator<MapValue> head = map[index].stream().iterator();
-       while (head.hasNext()) {
-            head.next();
-       }
+        int index = getIndex(key);
+        map[index] = new Node(key, value);
+
+//       while (map.hasNext()) {
+//            head.next();
+//       }
     }
 
     public int get(int key) {
-        return -1;
+        int index = getIndex(key);
+        return map[index].value;
     }
 
     public void remove(int key) {
-
+        int index = getIndex(key);
+        map[index] = null;
     }
 
     @Override
