@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fddec1a5-727b-4cb7-b538-5c3e38087f54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/HashMap/MyHashMap706.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/LinkList/MyLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/LinkList/MyLinkListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/LinkList/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/HashMap/MaximumNumberOfBalloons1189.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishu/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/HashMap/MyHashMap706.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishu/DataStructure/Linear/HashMap/MyHashMap706.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +41,7 @@
     "Application.BubbleTest.executor": "Run",
     "Application.LinkListTest.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MyHashMap706.executor": "Run",
     "Application.MyLinkListTest.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RangeSumQuery303.executor": "Run",
@@ -83,6 +80,7 @@
     "Application.Solution560.executor": "Run",
     "Application.Solution567.executor": "Debug",
     "Application.Solution643.executor": "Run",
+    "Application.Solution706.executor": "Run",
     "Application.Solution76.executor": "Run",
     "Application.Solution88.executor": "Run",
     "Application.Solution9.executor": "Run",
@@ -99,25 +97,20 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "settings.editor.selected.configurable": "profiler.jvm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyLinkListTest">
-    <configuration name="LinkListTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.LinkList.LinkListTests" />
+  <component name="RunManager" selected="Application.Solution706">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCodeSolution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.krishu.DataStructure.Linear.LinkList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="MyHashMap706" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MyHashMap706" />
       <module name="LeetCodeSolution" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.Stack.StackTest" />
+    <configuration name="Solution706" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.krishu.DataStructure.Linear.HashMap.Solution706" />
       <module name="LeetCodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishu.DataStructure.Linear.Stack.*" />
+          <option name="PATTERN" value="com.krishu.DataStructure.Linear.HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution706" />
+        <item itemvalue="Application.MyHashMap706" />
         <item itemvalue="Application.MyLinkListTest" />
-        <item itemvalue="Application.com.krishu.Main" />
-        <item itemvalue="Application.LinkListTests" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StackTest" />
+        <item itemvalue="Application.com.krishu.Main" />
       </list>
     </recent_temporary>
   </component>
